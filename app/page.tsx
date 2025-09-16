@@ -25,7 +25,7 @@ export default function Page() {
             <a href="#governanca" className="hover:text-neutral-600">Governança</a>
           </nav>
           <div className="flex items-center gap-2">
-            <a href={WHATSAPP_LINK} className="inline-flex items-center gap-2 rounded-xl bg-neutral-900 text-white px-4 py-2 text-sm shadow-sm hover:bg-neutral-800 no-print">
+            <a href={WHATSAPP_LINK} className=" inline-flex items-center gap-2 rounded-xl bg-neutral-900 text-white px-4 py-2 text-sm shadow-sm hover:bg-neutral-800 ">
               Fale com especialista
             </a>
             <button onClick={handlePrint} className="hidden md:inline-flex items-center gap-2 rounded-xl bg-white border border-neutral-200 px-4 py-2 text-sm hover:bg-neutral-100">
@@ -49,7 +49,7 @@ export default function Page() {
                 <strong> Colocamos clientes prontos para comprar na sua agenda</strong>, com qualificação humana e acompanhamento que aumenta LTV e recompra.
               </p>
               <div className="mt-7 flex flex-col sm:flex-row gap-3">
-                <a href={WHATSAPP_LINK} className="inline-flex justify-center rounded-2xl bg-neutral-900 text-white px-6 py-3 text-base font-medium shadow hover:bg-neutral-800">
+                <a href={WHATSAPP_LINK} className=" inline-flex justify-center rounded-2xl bg-neutral-900 text-white px-6 py-3 text-base font-medium shadow hover:bg-neutral-800">
                   Diagnóstico executivo (20 min)
                 </a>
                 <button onClick={handlePrint} className="inline-flex justify-center rounded-2xl bg-white border border-neutral-300 px-6 py-3 text-base font-medium hover:bg-neutral-100">
@@ -171,7 +171,7 @@ export default function Page() {
           <h3 className="text-2xl md:text-3xl font-semibold">Pronto para previsibilidade comercial?</h3>
           <p className="mt-3 text-neutral-300">Agende um diagnóstico executivo de 20 minutos e receba uma proposta com metas de volume para a sua região.</p>
           <div className="mt-6 flex flex-col sm:flex-row items-center justify-center gap-3">
-            <a href={WHATSAPP_LINK} className="inline-flex justify-center rounded-2xl bg-white text-neutral-900 px-6 py-3 font-medium hover:bg-neutral-100">Falar no WhatsApp</a>
+            <a href={WHATSAPP_LINK} className=" inline-flex justify-center rounded-2xl bg-white text-neutral-900 px-6 py-3 font-medium hover:bg-neutral-100">Falar no WhatsApp</a>
             <button onClick={handlePrint} className="inline-flex justify-center rounded-2xl border border-white/30 px-6 py-3 font-medium hover:bg-white/10">Baixar One‑Pager</button>
           </div>
         </div>
@@ -191,8 +191,8 @@ export default function Page() {
       <section className="hidden print:block p-10 text-neutral-900">
         <div className="max-w-5xl mx-auto">
           <div className="flex items-center justify-between">
-            <div className="text-2xl font-semibold">BPO de Vendas & Relacionamento — Setor Moveleiro</div>
-            <div className="text-sm">Contato: {WHATSAPP_LINK}</div>
+            <div className="text-3x2 font-semibold">BPO de Vendas & Relacionamento — Setor Moveleiro</div>
+            <div className="text-sm">Contato:<br/>(11)9.8210-0301 </div>
           </div>
           <hr className="my-4 border-neutral-300" />
 
