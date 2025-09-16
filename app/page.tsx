@@ -25,7 +25,7 @@ export default function Page() {
             <a href="#governanca" className="hover:text-neutral-600">Governança</a>
           </nav>
           <div className="flex items-center gap-2">
-            <a href={WHATSAPP_LINK} className="inline-flex items-center gap-2 rounded-xl bg-neutral-900 text-white px-4 py-2 text-sm shadow-sm hover:bg-neutral-800">
+            <a href={WHATSAPP_LINK} className="inline-flex items-center gap-2 rounded-xl bg-neutral-900 text-white px-4 py-2 text-sm shadow-sm hover:bg-neutral-800 no-print">
               Fale com especialista
             </a>
             <button onClick={handlePrint} className="hidden md:inline-flex items-center gap-2 rounded-xl bg-white border border-neutral-200 px-4 py-2 text-sm hover:bg-neutral-100">
