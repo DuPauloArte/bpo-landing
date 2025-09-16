@@ -3,7 +3,7 @@
 import React from "react";
 
 export default function Page() {
-  const WHATSAPP_LINK = "https://wa.me/5599999999999?text=Quero%20um%20diagn%C3%B3stico%20para%20BPO%20de%20Vendas%20%26%20Relacionamento";
+  const WHATSAPP_LINK = "https://wa.me/5511982100301?text=Quero%20um%20diagn%C3%B3stico%20para%20BPO%20de%20Vendas%20%26%20Relacionamento";
 
   const handlePrint = () => {
     if (typeof window !== "undefined") window.print();
